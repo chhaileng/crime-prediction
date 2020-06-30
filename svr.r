@@ -1,7 +1,7 @@
 
 library(e1071)
 #load data set
-originalData <- read.csv("/Users/Chhaileng/Downloads/data_mining/crime_rate_prediction_dataset.csv")
+originalData <- read.csv("/Users/Chhaileng/Documents/data_mining/crime_rate_prediction_dataset.csv")
 
 # convert district to dummy variables
 originalData$Districts<-factor(originalData$Districts)
